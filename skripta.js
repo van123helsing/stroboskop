@@ -53,8 +53,8 @@ window.addEventListener('load', function() {
 			vrednosti.push(barva.innerHTML);
 		}
 		
-		minCas = 1000;
-		maxCas = 1000;
+		minCas = document.querySelectorAll("#min");
+		maxCas = document.querySelectorAll("#max");
 		spremeniBarvo(0);
 		
 		var start = document.querySelector("#start");
